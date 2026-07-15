@@ -21,28 +21,18 @@
   height: 750px;  
 }
 
-#div2 {
-  border-radius: 25px;
-  border: 2px solid #04AA6D;
-  padding: 20px; 
-  width: 1000px;
-  height: 900px;  
-}
-
-#div3 {
-  border-radius: 25px;
-  background-image: url(paper.gif);
-  background-position: left top;
-  background-repeat: repeat;
-  padding: 20px; 
-  width: 200px;
-  height: 150px;  
+rounded-image {
+  position:relative;
+   width: 200px; /* Set desired width */
+   height: 200px; /* Set desired height */
+   border-radius: 10%; /* Makes the image circular */
+   object-fit: cover; /* Ensures the image fits within the circle */
 }
   </style>
 </head>
 <body background-color:powderblue;>
   <div id="div1">
-<img src="./images/image-qr-code.png"; position:relative; border-radius: 25px;>
+<img src="./images/image-qr-code.png" class="rounded-image" >
     Rounded corners!
   Improve your front-end skills by building projects
 
